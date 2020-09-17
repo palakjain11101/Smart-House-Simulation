@@ -33,7 +33,7 @@ In addition to its previous functionalities, the BatteryMeter now generates a ra
 using the random_tariff() method per hour. It uses the sellExcessUnits() method to sell any excess units that had been lost previously, at the price 
 of the tariff. 
 
-In addition, the batterymeter chooses whether to use the charge in the battery to power the house or to sell it. If the unitCost
+Moreover, the batterymeter chooses whether to use the charge in the battery to power the house or to sell it. If the unitCost
 (the cost of using electricity from Mains) is greater than the tariff, it would be more profitable to use units straight from the battery
 (if there is batteryCharge) to power the house. If the tariff is greater, it would be more profitable to use units straight from Mains to power the 
 house and to sell that many battery units back to the utility company. 
